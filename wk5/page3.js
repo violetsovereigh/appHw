@@ -17,14 +17,15 @@ import Header from './src/components/Header';
 import SegmentedControl from './src/components/SegmentedControl';
 import CardList from './src/components/CardList';
 import Footer from './src/components/Footer';
+import GameList from './src/components/GameList';
+import Search from './src/components/Search';
 export default class wk5 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <StatusBar barStyle="light-content"/>
-                 <Header headerText={'Hearthstone'}/>   
-                 <SegmentedControl />
-                 <CardList />
+                <StatusBar barStyle="light-content"/>   
+                 <Search />
+                 <GameList />
                 <Footer />
             </View>
         );

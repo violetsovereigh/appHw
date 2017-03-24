@@ -10,6 +10,7 @@ import {
   StyleSheet,
   Text,
   View,
+  StatusBar,
   Image
 } from 'react-native';
 
@@ -17,9 +18,10 @@ export default class wk5 extends Component {
   render() {
     return (
       <View style={styles.container}>
-      <View style={styles.logo}>
-      <Image style={{height:61.5,width:185.5}} source={require('./media01/Asset/logo_twitch.png')}/>
-      </View>
+      <StatusBar barStyle="light-content"/>
+  
+      <Image style={styles.logo} source={require('./src/Asset/logo_twitch.png')} />
+
 
       
       </View>
